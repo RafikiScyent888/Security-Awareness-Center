@@ -103,7 +103,7 @@ stays on screen.
   overrides it and the choice is remembered.
 
 ## What's here
-
+ 
 ```
 index.html          the page shell, theme bootstrap, instructor dialog
 assets/breach.js    the generator — one breach object per scenario
