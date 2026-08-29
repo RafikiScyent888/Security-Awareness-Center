@@ -72,6 +72,42 @@ Two tiles carry a **hold-to-read key** — the control types/categories, and the
 IR phases plus order of volatility. It shows only while the button is held, so
 it is a memory aid during the drill rather than a permanent crib sheet.
 
+## When a student is genuinely stuck
+
+Nothing appears for the first two wrong answers. Somebody one guess away should be
+allowed to get there on their own, and a page that starts helping the moment
+anyone is wrong teaches them to guess and wait for it.
+
+From the third wrong answer, **one rung per attempt, escalating** — and never the
+answer:
+
+| Rung | What it does |
+| --- | --- |
+| 1 | Sends them back to the panel that actually settles it. |
+| 2 | The reasoning move for that kind of question — how to eliminate, what to compare. |
+| 3 | Names the trap this tile was built around, and why it is a trap. Still not the answer. |
+
+When the ladder is spent the page marks **`LOOK HERE`** on the evidence in the
+question's own tile and **`CHANGE THIS`** on the control, and offers to clear the
+answer — the commonest reason a stuck student stays stuck is their own wrong pick
+sitting in the box they are staring at. **The reset keeps the hints and the
+wrong-count**: nothing earned is taken away, and nobody can farm a fresh ladder by
+failing on purpose.
+
+Two things are deliberate:
+
+- **The hints are generated, not tabulated.** A table of hand-written hints stops
+  growing the moment a question is added. These key off the question id, so a new
+  question inherits a working ladder the day it is written.
+- **Sometimes nothing is marked, and it says so.** Judgement questions — what you
+  can honestly assert, how to treat a risk, what to report — are answered from what
+  you already have, not by finding another row. Marking the nearest table anyway
+  would be a lie dressed as help.
+
+The mark is a printed word on a plate, not a glow: colour alone says nothing to a
+student who cannot separate it from the panel behind it. Motion reinforces it and
+is dropped under `prefers-reduced-motion`.
+
 ## Instructor mode
 
 PIN **3693**, same as the rest of the toolkit. Reveals every answer, highlights
@@ -103,7 +139,7 @@ stays on screen.
   overrides it and the choice is remembered.
 
 ## What's here
- 
+
 ```
 index.html          the page shell, theme bootstrap, instructor dialog
 assets/breach.js    the generator — one breach object per scenario
