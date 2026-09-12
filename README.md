@@ -138,7 +138,7 @@ stays on screen.
 - **Themes.** Follows the OS by default; the Dark/Light button in the header
   overrides it and the choice is remembered.
 
-## What's here
+## What's here 
 
 ```
 index.html          the page shell, theme bootstrap, instructor dialog
